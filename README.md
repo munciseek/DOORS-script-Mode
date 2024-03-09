@@ -1,0 +1,5 @@
+脚本从V2开始是自动更新
+脚本由munciseek一人制作
+bilibili：Angry_munciseek
+QQ:550446203
+Roblox:Sansheq
