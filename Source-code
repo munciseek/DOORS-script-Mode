@@ -1,0 +1,163 @@
+if game.placeId == 6839171747 then
+    local CurrentVersion = "DOORS 脚本模式 V2"
+    
+    local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+    local GUI = Mercury:Create{
+    Name = "DOORS 脚本模式",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://bilibili.com/munciseek/script"
+    }
+
+    local FarmTab = GUI:Tab{
+        Name = "脚本模式",
+        Icon = "rbxassetid://16678400553"
+    }
+    
+    FarmTab:Button{
+        Name = "硬核模式",
+        Description = "by noonie & ping",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
+        end
+}
+    FarmTab:Button{
+        Name = "硬核模式重置版",
+        Description = "by noonie & ping & Chrono",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/-v6/main/v6"))()
+        end
+}
+    FarmTab:Button{
+        Name = "硬核模式糟糕版",
+        Description = "by Idk",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/bad-hardcore-/main/badharhcore"))()
+        end
+}
+    FarmTab:Button{
+        Name = "无尽模式",
+        Description = "by C87FM & Crow & Cheeto & sandwich",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/symmetrical-octo-umbrella/main/ff"))()
+        end
+}
+    FarmTab:Button{
+        Name = "碎片模式",
+        Description = "by The Jabiss",
+        Callback = function() 
+           loadstring(game:HttpGet("https://glot.io/snippets/gpw1ypnl5o/raw/main.lua"))()
+        end
+}
+    FarmTab:Button{
+        Name = "生日模式",
+        Description = "by plamen6789",
+        Callback = function() 
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/BirthdayModeDOORS/main/BirthdayModeScript'))()
+        end
+}
+    FarmTab:Button{
+        Name = "困难模式",
+        Description = "by plamen6789",
+        Callback = function() 
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/HardcoreScriptDOORS/main/HardcoreModeScript'))()
+        end
+}
+    FarmTab:Button{
+        Name = "朦胧模式",
+        Description = "by The Jabiss",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/cautious-robot/main/mm"))()
+        end
+}
+    FarmTab:Button{
+        Name = "恐惧模式",
+        Description = "by cool59572",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/cool59572/freestuff/main/Mods/FearMode.lua"))()
+        end
+}
+    FarmTab:Button{
+        Name = "恐惧模式单人版",
+        Description = "by cool59572",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/cool59572/freestuff/main/Fear_mode_multiplayer.lua"))()
+        end
+}
+    FarmTab:Button{
+        Name = "巨魔模式",
+        Description = "by Idk",
+        Callback = function() 
+           loadstring(game:HttpGet("https://glot.io/snippets/gotfeffesc/raw/main.lua"))()
+        end
+}
+    FarmTab:Button{
+        Name = "极端模式",
+        Description = "by Muhammad",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/eee/main/wtf"))()
+        end
+}
+    FarmTab:Button{
+        Name = "哈默模式",
+        Description = "by Idk",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/anmoc/main/hamod"))()
+        end
+}
+    FarmTab:Button{
+        Name = "福瑞模式",
+        Description = "by Idk",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/furry/main/furry"))()
+        end
+}
+    FarmTab:Button{
+        Name = "疯狂模式",
+        Description = "by Noah & figure",
+        Callback = function() 
+           loadstring(game:HttpGet(("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"),true))()
+        end
+}
+    FarmTab:Button{
+        Name = "噩梦模式",
+        Description = "by MuhammadGames & Volta",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/-/main/%E5%99%A9%E6%A2%A6%E6%A8%A1%E5%BC%8F"))()
+        end
+}
+    FarmTab:Button{
+        Name = "不可能模式",
+        Description = "by oof",
+        Callback = function() 
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
+        end
+}
+    local Farm2Tab = GUI:Tab{
+        Name = "辅助",
+        Icon = "rbxassetid://16678400553"
+    }
+    
+    Farm2Tab:Button{
+        Name = "BlackKing",
+        Description = "DOORS脚本",
+        Callback = function() 
+           loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+        end
+}
+    Farm2Tab:Button{
+        Name = "NeRD",
+        Description = "DOORS脚本",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/NeRDV5.lua"))()
+        end
+}
+    Farm2Tab:Button{
+        Name = "Floor 2 材质",
+        Description = "第二章材质",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+        end
+}
+end
