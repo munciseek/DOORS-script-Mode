@@ -12,7 +12,7 @@ if game.placeId == 6839171747 then
 
     local FarmTab = GUI:Tab{
         Name = "脚本模式",
-        Icon = "rbxassetid://16678400553"
+        Icon = "rbxassetid://16731414408"
     }
     
     FarmTab:Button{
@@ -136,14 +136,24 @@ if game.placeId == 6839171747 then
 }
     local Farm2Tab = GUI:Tab{
         Name = "辅助",
-        Icon = "rbxassetid://16678400553"
+        Icon = "rbxassetid://16731407075"
     }
-    
+    local DoorssciptLabel = Farm2Tab:Label{
+         Text = "DOORS脚本",
+         Description = "优质的DOORS脚本"
+}
     Farm2Tab:Button{
         Name = "BlackKing",
         Description = "DOORS脚本",
         Callback = function() 
            loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+        end
+}
+    Farm2Tab:Button{
+        Name = "Vynixu",
+        Description = "DOORS脚本",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
         end
 }
     Farm2Tab:Button{
@@ -159,5 +169,32 @@ if game.placeId == 6839171747 then
         Callback = function() 
            loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
         end
+}
+    local OthersciptLabel = Farm2Tab:Label{
+         Text = "其他脚本",
+         Description = "其他的脚本"
+}
+   Farm2Tab:Button{
+        Name = "Infinite Yield",
+        Description = "各种指令",
+        Callback = function() 
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        end
+}
+   Farm2Tab:Button{
+        Name = "Dex",
+        Description = "可以查看游戏文件",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+        end
+}
+    local Farm3Tab = GUI:Tab{
+        Name = "道具",
+        Icon = "rbxassetid://16731400401"
+    }
+
+    local itemLabel = Farm3Tab:Label{
+         Text = "还没有",
+         Description = "请等待v2.002"
 }
 end
