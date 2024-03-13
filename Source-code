@@ -4,7 +4,7 @@ if game.placeId == 6839171747 then
     local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
     local GUI = Mercury:Create{
-    Name = "DOORS 脚本模式",
+    Name = "DOORS 脚本模式 V2.001",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
     Link = "https://bilibili.com/munciseek/script"
