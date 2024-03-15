@@ -4,7 +4,7 @@ if game.placeId == 6839171747 then
     local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
     local GUI = Mercury:Create{
-    Name = "DOORS 脚本模式 V2.001",
+    Name = "脚本模式 V2.001",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
     Link = "https://bilibili.com/munciseek/script"
@@ -12,7 +12,7 @@ if game.placeId == 6839171747 then
 
     local FarmTab = GUI:Tab{
         Name = "脚本模式",
-        Icon = "rbxassetid://16731414408"
+        Icon = "rbxassetid://16731414380"
     }
     
     FarmTab:Button{
@@ -87,7 +87,7 @@ if game.placeId == 6839171747 then
 }
     FarmTab:Button{
         Name = "巨魔模式",
-        Description = "by Idk",
+        Description = "by Noah",
         Callback = function() 
            loadstring(game:HttpGet("https://glot.io/snippets/gotfeffesc/raw/main.lua"))()
         end
@@ -136,7 +136,7 @@ if game.placeId == 6839171747 then
 }
     local Farm2Tab = GUI:Tab{
         Name = "辅助",
-        Icon = "rbxassetid://16731407075"
+        Icon = "rbxassetid://16731407056"
     }
     local DoorssciptLabel = Farm2Tab:Label{
          Text = "DOORS脚本",
@@ -190,7 +190,7 @@ if game.placeId == 6839171747 then
 }
     local Farm3Tab = GUI:Tab{
         Name = "道具",
-        Icon = "rbxassetid://16731400401"
+        Icon = "rbxassetid://16731400387"
     }
 
     local itemLabel = Farm3Tab:Label{
