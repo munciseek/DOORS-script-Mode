@@ -170,6 +170,19 @@ if game.placeId == 6839171747 then
            loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
         end
 }
+    local backdoorLabel = Farm2Tab:Label{
+         Text = "The backdoor",
+         Description = "后门脚本"
+}
+    Farm2Tab:Button{
+        Name = "后门",
+        Description = "防Lookman和Haste",
+        Callback = function() 
+           _G.IY = true -- Infinite Yield
+           _G.Bypass = true -- Bypass haste and Backdoor lookman
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Backdoors.lua"))()
+        end
+}
     local OthersciptLabel = Farm2Tab:Label{
          Text = "其他脚本",
          Description = "其他的脚本"
