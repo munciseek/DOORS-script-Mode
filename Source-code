@@ -117,7 +117,7 @@ if game.placeId == 6839171747 then
         Name = "疯狂模式",
         Description = "by Noah & figure",
         Callback = function() 
-           loadstring(game:HttpGet(("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"),true))()
+           loadstring(game:HttpGet(("https://raw.githubusercontent.com/munciseek/omg/main/mm"))()
         end
 }
     FarmTab:Button{
@@ -144,9 +144,16 @@ if game.placeId == 6839171747 then
 }
     Farm2Tab:Button{
         Name = "BlackKing",
-        Description = "DOORS脚本",
+        Description = "DOORS脚本(有bug)",
         Callback = function() 
            loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+        end
+}
+    Farm2Tab:Button{
+        Name = "FFJ",
+        Description = "DOORS脚本",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
         end
 }
     Farm2Tab:Button{
