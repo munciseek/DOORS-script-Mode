@@ -4,7 +4,7 @@ if game.placeId == 6839171747 then
     local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
     local GUI = Mercury:Create{
-    Name = "脚本模式 V2.001",
+    Name = "脚本模式 V2.003",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
     Link = "https://bilibili.com/munciseek/script"
@@ -114,13 +114,6 @@ if game.placeId == 6839171747 then
         end
 }
     FarmTab:Button{
-        Name = "疯狂模式",
-        Description = "by Noah & figure",
-        Callback = function() 
-           loadstring(game:HttpGet(("https://raw.githubusercontent.com/munciseek/omg/main/mm"))()
-        end
-}
-    FarmTab:Button{
         Name = "噩梦模式",
         Description = "by MuhammadGames & Volta",
         Callback = function() 
@@ -132,6 +125,13 @@ if game.placeId == 6839171747 then
         Description = "by oof",
         Callback = function() 
            loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
+        end
+}
+    FarmTab:Button{
+        Name = "疯狂模式",
+        Description = "by Noah & figure",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/insane-mode-v6/main/New%20insane%20mode%20v6.lua"))()
         end
 }
     local Farm2Tab = GUI:Tab{
@@ -179,20 +179,32 @@ if game.placeId == 6839171747 then
 }
     local backdoorLabel = Farm2Tab:Label{
          Text = "The backdoor",
-         Description = "后门脚本"
+         Description = "THE HUNT脚本"
 }
     Farm2Tab:Button{
-        Name = "后门",
-        Description = "防Lookman和Haste",
+        Name = "backdoor(kiwi)",
+        Description = "防Lookman和Haste,速度提升,实体通知,全透视",
         Callback = function() 
-           _G.IY = true -- Infinite Yield
-           _G.Bypass = true -- Bypass haste and Backdoor lookman
            loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Backdoors.lua"))()
+        end
+}        
+    Farm2Tab:Button{
+        Name = "backdoor(upoi)",
+        Description = "防Lookman无Haste跳脸,速度提升,实体通知,全透视",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/mspaint/backdoor.lua"))()
         end
 }
     local OthersciptLabel = Farm2Tab:Label{
          Text = "其他脚本",
          Description = "其他的脚本"
+}
+    Farm2Tab:Button{
+        Name = "F3x",
+        Description = "改游戏地图",
+        Callback = function() 
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/F3X.lua"))()
+        end
 }
    Farm2Tab:Button{
         Name = "Infinite Yield",
@@ -212,9 +224,11 @@ if game.placeId == 6839171747 then
         Name = "道具",
         Icon = "rbxassetid://16731400387"
     }
-
-    local itemLabel = Farm3Tab:Label{
-         Text = "还没有",
-         Description = "请等待v2.002"
+    Farm3Tab:Button{
+        Name = "黑洞",
+        Description = "吸!",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Black%20Hole.lua"))()
+        end
 }
 end
